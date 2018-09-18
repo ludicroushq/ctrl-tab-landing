@@ -21,7 +21,7 @@
                     onclick="chrome.webstore.install()"
                   >
                     Install Extension
-                  g</a>
+                  </a>
                 </div>
               </div>
             </div>
