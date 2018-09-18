@@ -5,6 +5,10 @@
   "static": {
     "rewrites": [
       {
+        "source": "/googleb9e8035d4b766799.html",
+        "destination": "/googleb9e8035d4b766799.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
