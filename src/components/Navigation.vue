@@ -15,7 +15,15 @@
 
       <div class="navbar-menu" :class="{ 'is-active': active }">
         <div class="navbar-end">
-          <router-link to="/" class="navbar-item" active-class="is-active" exact @click.native="closeMenu">Home</router-link>
+          <router-link
+            to="/"
+            class="navbar-item"
+            active-class="is-active"
+            @click.native="closeMenu"
+            exact
+          >
+            Home
+          </router-link>
         </div>
       </div>
     </div>
