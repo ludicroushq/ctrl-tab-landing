@@ -13,14 +13,23 @@
               </h2>
               <div class="columns">
                 <div class="column">
-                  <a href="https://chrome.google.com/webstore/detail/tab/ijfnjhlohbehhlhhokgokabonpnlldon" class="button is-medium is-fullwidth is-info" target="_blank" rel="noopener noreferrer">View on Chrome Store</a>
+                  <a
+                    href="https://github.com/ludicrousxyz/tab"
+                    class="button is-medium is-fullwidth is-info"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    View on GitHub
+                  </a>
                 </div>
                 <div class="column">
                   <a
+                    href="https://chrome.google.com/webstore/detail/tab/ijfnjhlohbehhlhhokgokabonpnlldon"
                     class="button is-medium is-fullwidth is-success"
-                    onclick="chrome.webstore.install()"
+                    rel="noopener noreferrer"
+                    target="_blank"
                   >
-                    Install Extension
+                    View on Chrome Store
                   </a>
                 </div>
               </div>
