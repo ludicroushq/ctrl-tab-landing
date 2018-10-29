@@ -8,6 +8,11 @@ $primary: $indigo;
 $info: $pink;
 $link: $indigo;
 
+$background: $black;
+$body-background-color: $black;
+$navbar-background-color: $black;
+$footer-background-color: hsl(0, 0%, 5%);
+
 @import '~bulma/bulma.sass';
 
 @import './style.scss';

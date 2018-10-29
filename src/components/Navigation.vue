@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-white has-shadow" id="main-navbar">
+  <nav class="navbar is-black has-shadow" id="main-navbar">
     <div class="container">
       <div class="navbar-brand">
         <router-link class="navbar-item has-text-weight-bold" to="/">
