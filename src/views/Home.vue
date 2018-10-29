@@ -26,7 +26,7 @@
               </div>
             </div>
             <div class="column">
-              <img src="https://raw.githubusercontent.com/ludicrousxyz/tab/master/public/img/screenshot.png">
+              <img src="https://raw.githubusercontent.com/ludicrousxyz/tab/master/public/img/banner.png">
             </div>
           </div>
         </div>
