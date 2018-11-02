@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <div class="content has-text-centered has-text-white has-text-weight-bold">
+    <div class="content has-text-centered has-text-weight-bold">
       &copy; {{ this.year }} ludicrous.
     </div>
   </footer>
