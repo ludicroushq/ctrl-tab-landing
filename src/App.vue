@@ -13,6 +13,8 @@
 </style>
 
 <script>
+import 'whatwg-fetch';
+
 import Navigation from '@/components/Navigation.vue';
 import Footer from '@/components/Footer.vue';
 
