@@ -23,7 +23,7 @@
                 <div class="column">
                   <a
                     href="https://chrome.google.com/webstore/detail/tab/ijfnjhlohbehhlhhokgokabonpnlldon"
-                    class="button is-fullwidth is-outlined is-medium is-primary"
+                    class="button is-fullwidth is-outlined is-medium is-success"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -150,6 +150,50 @@
                     </tr>
                   </tbody>
                 </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <div class="columns is-vcentered">
+            <div class="column">
+              <h1 class="title">
+                so what are you waiting for?
+              </h1>
+              <h2 class="subtitle">
+                install the extension now!
+              </h2>
+              <div class="columns">
+                <div class="column">
+                  <a
+                    href="https://chrome.google.com/webstore/detail/tab/ijfnjhlohbehhlhhokgokabonpnlldon"
+                    class="button is-fullwidth is-outlined is-medium is-success"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span class="icon">
+                      <font-awesome-icon :icon="['fab', 'chrome']" />
+                    </span>
+                    <span>Install Chrome Extension</span>
+                  </a>
+                </div>
+                <div class="column">
+                  <a
+                    href="https://addons.mozilla.org/en-US/firefox/addon/ludicrous-tab"
+                    class="button is-fullwidth is-outlined is-medium is-warning"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span class="icon">
+                      <font-awesome-icon :icon="['fab', 'firefox']" />
+                    </span>
+                    <span>Install Firefox Add-on</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
