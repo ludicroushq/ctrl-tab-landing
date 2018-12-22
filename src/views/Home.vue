@@ -1,5 +1,13 @@
 <template>
   <div class="home">
+    <div
+      v-if="productHunt"
+      class="notification product-hunt is-warning has-text-centered has-text-white"
+    >
+      <strong>Hello Product Hunters!</strong>
+      Don't forget to check out the Product Hunt feed in the extension
+      to stay up to date with the latest posts!
+    </div>
     <section class="hero">
       <div class="hero-body">
         <div class="container has-text-centered">
@@ -161,6 +169,7 @@ export default {
       providers: {},
       categories: [],
       currentCategory: '',
+      productHunt: false,
     };
   },
   methods: {
@@ -169,6 +178,9 @@ export default {
     },
   },
   async created() {
+    if (this.$route.query.ref) {
+      this.productHunt = true;
+    }
     const req = await fetch('https://raw.githubusercontent.com/ludicrousxyz/tab/master/public/providers.json');
     const { providers } = await req.json();
     const categories = {};
@@ -191,3 +203,9 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.product-hunt {
+  background-color: #da552f;
+}
+</style>

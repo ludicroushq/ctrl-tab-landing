@@ -20,7 +20,6 @@
             class="navbar-item"
             active-class="is-active"
             @click.native="closeMenu"
-            exact
           >
             Home
           </router-link>
