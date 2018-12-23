@@ -225,7 +225,7 @@ export default {
     if (this.$route.query.ref) {
       this.productHunt = true;
     }
-    const req = await fetch('https://raw.githubusercontent.com/ludicrousxyz/tab/master/public/providers.json');
+    const req = await fetch('https://api.tab.ludicrous.xyz/v2/providers');
     const { providers } = await req.json();
     const categories = {};
     providers.forEach((provider) => {
