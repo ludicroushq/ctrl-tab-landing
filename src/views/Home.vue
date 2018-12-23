@@ -165,7 +165,7 @@
                 so what are you waiting for?
               </h1>
               <h2 class="subtitle">
-                install the extension now!
+                install the extension on your favorite browser!
               </h2>
               <div class="columns">
                 <div class="column">
