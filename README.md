@@ -1,26 +1,34 @@
-# ctrl-tab-landing
+<h1 align="center">ctrl tab landing</h1>
 
-## Project setup
+<p align="center">
+  <a href="https://travis-ci.org/ludicrousxyz/ctrl-tab-landing" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/travis/ludicrousxyz/ctrl-tab-landing.svg" alt="build status">
+  </a>
+</p>
+
+the landing page for ctrl tab.
+
+## project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### compiles and minifies for production
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### lints and fixes files
 ```
 npm run lint
 ```
 
-### Run your unit tests
+### run your unit tests
 ```
 npm run test:unit
 ```
