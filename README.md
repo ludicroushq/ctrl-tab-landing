@@ -1,10 +1,11 @@
-<h1 align="center">ctrl tab landing</h1>
-
-<p align="center">
-  <a href="https://travis-ci.org/ludicrousxyz/ctrl-tab-landing" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/travis/ludicrousxyz/ctrl-tab-landing.svg" alt="build status">
-  </a>
-</p>
+<h1 align="center">
+  ctrl tab landing
+  <p align="center">
+    <a href="https://travis-ci.org/ludicrousxyz/ctrl-tab-landing" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/travis/ludicrousxyz/ctrl-tab-landing.svg" alt="build status">
+    </a>
+  </p>
+</h1>
 
 the landing page for ctrl tab.
 
