@@ -78,13 +78,13 @@
               <div class='carousel carousel-animated carousel-animate-slide' data-autoplay="true">
                 <div class='carousel-container'>
                   <div class='carousel-item has-background is-active'>
-                    <img class="is-background" src="https://raw.githubusercontent.com/ludicrousxyz/ctrl-tab/develop/public/img/chrome/traditional.png" />
+                    <img class="is-background" src="https://raw.githubusercontent.com/ludicrousxyz/ctrl-tab/master/public/img/chrome/traditional.png" />
                   </div>
                   <div class='carousel-item has-background'>
-                    <img class="is-background" src="https://raw.githubusercontent.com/ludicrousxyz/ctrl-tab/develop/public/img/chrome/tech.png" />
+                    <img class="is-background" src="https://raw.githubusercontent.com/ludicrousxyz/ctrl-tab/master/public/img/chrome/tech.png" />
                   </div>
                   <div class='carousel-item has-background'>
-                    <img class="is-background" src="https://raw.githubusercontent.com/ludicrousxyz/ctrl-tab/develop/public/img/chrome/screenshot.png" />
+                    <img class="is-background" src="https://raw.githubusercontent.com/ludicrousxyz/ctrl-tab/master/public/img/chrome/screenshot.png" />
                   </div>
                 </div>
                 <div class="carousel-navigation is-overlay">
