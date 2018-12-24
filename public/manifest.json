@@ -1,6 +1,6 @@
 {
-  "name": "tab",
-  "short_name": "tab",
+  "name": "ctrl-tab",
+  "short_name": "ctrl tab",
   "icons": [
     {
       "src": "/img/icons/android-chrome-192x192.png",
