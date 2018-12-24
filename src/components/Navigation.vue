@@ -3,7 +3,7 @@
     <div class="container">
       <div class="navbar-brand">
         <router-link class="navbar-item has-text-weight-bold" to="/">
-          <span class="is-size-5">ludicrous tab</span>
+          <span class="is-size-5">ctrl tab</span>
         </router-link>
 
         <div class="navbar-burger burger" :class="{ 'is-active': active }" @click="toggleMenu">

@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="content has-text-centered has-text-weight-bold has-text-grey-dark">
-      <a href="https://www.ludicrous.xyz" class="has-text-grey-dark" rel="noopener noreferrer" target="_blank">
+      <a href="https://www.ludicrous.xyz" class="has-text-grey-dark">
         &copy; {{ this.year }} ludicrous.
       </a>
     </div>

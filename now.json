@@ -1,6 +1,6 @@
 {
-  "name": "ludicrous-tab-landing",
-  "alias": "tab.ludicrous.xyz",
+  "name": "ctrl-tab-landing",
+  "alias": "www.ctrltab.io",
   "type": "static",
   "static": {
     "rewrites": [
@@ -25,6 +25,6 @@
     "node": "^8.0.0"
   },
   "env": {
-    "BASE_URL": "https://tab.ludicrous.xyz"
+    "BASE_URL": "https://www.ctrltab.io"
   }
 }

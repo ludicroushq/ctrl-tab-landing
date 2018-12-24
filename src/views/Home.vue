@@ -14,7 +14,7 @@
           <div class="columns is-vcentered">
             <div class="column">
               <h1 class="title">
-                ludicrous tab.
+                ctrl tab.
               </h1>
               <h2 class="subtitle">
                 replace your new tab page with the data that matters to you
@@ -22,7 +22,7 @@
               <div class="columns">
                 <div class="column">
                   <a
-                    href="https://chrome.google.com/webstore/detail/tab/ijfnjhlohbehhlhhokgokabonpnlldon"
+                    href="https://chrome.google.com/webstore/detail/ctrl-tab/ijfnjhlohbehhlhhokgokabonpnlldon"
                     class="button is-fullwidth is-outlined is-medium is-success"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -35,7 +35,7 @@
                 </div>
                 <div class="column">
                   <a
-                    href="https://addons.mozilla.org/en-US/firefox/addon/ludicrous-tab"
+                    href="https://addons.mozilla.org/en-US/firefox/addon/ctrl-tab"
                     class="button is-fullwidth is-outlined is-medium is-warning"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -50,7 +50,7 @@
               <div class="columns">
                 <div class="column">
                   <a
-                    href="https://github.com/ludicrousxyz/tab"
+                    href="https://github.com/ludicrousxyz/ctrl-tab"
                     class="button is-fullwidth is-outlined"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -64,7 +64,7 @@
               </div>
             </div>
             <div class="column">
-              <img src="https://raw.githubusercontent.com/ludicrousxyz/tab/master/public/img/banner.png" width="75%">
+              <img src="https://raw.githubusercontent.com/ludicrousxyz/ctrl-tab/master/public/img/banner.png" width="75%">
             </div>
           </div>
         </div>
@@ -78,13 +78,13 @@
               <div class='carousel carousel-animated carousel-animate-slide' data-autoplay="true">
                 <div class='carousel-container'>
                   <div class='carousel-item has-background is-active'>
-                    <img class="is-background" src="https://raw.githubusercontent.com/ludicrousxyz/tab/develop/public/img/chrome/traditional.png" />
+                    <img class="is-background" src="https://raw.githubusercontent.com/ludicrousxyz/ctrl-tab/develop/public/img/chrome/traditional.png" />
                   </div>
                   <div class='carousel-item has-background'>
-                    <img class="is-background" src="https://raw.githubusercontent.com/ludicrousxyz/tab/develop/public/img/chrome/tech.png" />
+                    <img class="is-background" src="https://raw.githubusercontent.com/ludicrousxyz/ctrl-tab/develop/public/img/chrome/tech.png" />
                   </div>
                   <div class='carousel-item has-background'>
-                    <img class="is-background" src="https://raw.githubusercontent.com/ludicrousxyz/tab/develop/public/img/chrome/screenshot.png" />
+                    <img class="is-background" src="https://raw.githubusercontent.com/ludicrousxyz/ctrl-tab/develop/public/img/chrome/screenshot.png" />
                   </div>
                 </div>
                 <div class="carousel-navigation is-overlay">
@@ -170,7 +170,7 @@
               <div class="columns">
                 <div class="column">
                   <a
-                    href="https://chrome.google.com/webstore/detail/tab/ijfnjhlohbehhlhhokgokabonpnlldon"
+                    href="https://chrome.google.com/webstore/detail/ctrl-tab/ijfnjhlohbehhlhhokgokabonpnlldon"
                     class="button is-fullwidth is-outlined is-medium is-success"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -183,7 +183,7 @@
                 </div>
                 <div class="column">
                   <a
-                    href="https://addons.mozilla.org/en-US/firefox/addon/ludicrous-tab"
+                    href="https://addons.mozilla.org/en-US/firefox/addon/ctrl-tab"
                     class="button is-fullwidth is-outlined is-medium is-warning"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -225,7 +225,7 @@ export default {
     if (this.$route.query.ref) {
       this.productHunt = true;
     }
-    const req = await fetch('https://api.tab.ludicrous.xyz/v2/providers');
+    const req = await fetch('https://api.ctrltab.io/v2/providers');
     const { providers } = await req.json();
     const categories = {};
     providers.forEach((provider) => {
