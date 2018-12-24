@@ -10,26 +10,31 @@
 the landing page for ctrl tab.
 
 ## project setup
-```
+
+```bash
 npm install
 ```
 
 ### compiles and hot-reloads for development
-```
+
+```bash
 npm run serve
 ```
 
 ### compiles and minifies for production
-```
+
+```bash
 npm run build
 ```
 
 ### lints and fixes files
-```
+
+```bash
 npm run lint
 ```
 
 ### run your unit tests
-```
+
+```bash
 npm run test:unit
 ```
